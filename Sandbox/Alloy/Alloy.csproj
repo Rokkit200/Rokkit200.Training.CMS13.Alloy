@@ -19,6 +19,7 @@
     <PackageReference Include="EPiServer.CMS.Core" Version="13.0.0-preview3" />
     <PackageReference Include="EPiServer.CMS.AspNetCore" Version="13.0.0-preview3" />
 	<PackageReference Include="EPiServer.CMS.UI.AspNetIdentity" Version="13.0.0-preview3" />
+	<PackageReference Include="Optimizely.Graph.Cms" Version="13.0.0-preview3" />
 	<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
 
     <!--<PackageReference Include="Stott.Security.Optimizely" Version="4.0.1" />-->

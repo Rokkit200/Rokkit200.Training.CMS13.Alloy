@@ -4,7 +4,7 @@ using EPiServer.Data;
 using EPiServer.DependencyInjection;
 using EPiServer.Scheduler;
 using EPiServer.Web.Routing;
-using Microsoft.AspNetCore.Builder;
+using Optimizely.Graph.DependencyInjection;
 
 namespace Alloy;
 
@@ -45,6 +45,8 @@ public class Startup
             .AddAlloy()
             .AddAdminUserRegistration()
             .AddEmbeddedLocalization<Startup>();
+
+        services.AddContentGraph();
 
         services.AddControllers();
         services.AddRazorPages();
