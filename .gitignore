@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Sandbox/Alloy/bin/Debug/net10.0
+/Sandbox/Alloy/obj
+/Sandbox/.vs/Alloy/FileContentIndex
+/Sandbox/Alloy/App_Data
+/Sandbox/.vs/Alloy
